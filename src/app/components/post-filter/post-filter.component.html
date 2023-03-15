@@ -1,0 +1,17 @@
+<section>
+  <form (ngSubmit)="onSubmit()" class="flex justify-between items-center gap-8">
+    <input
+      type="text"
+      class="border border-black-500 rounded-md px-3 py-2"
+      placeholder="Filtrar por nombre"
+      [(ngModel)]="filterValue"
+    />
+
+    <button
+      type="submit"
+      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+    >
+      Buscar
+    </button>
+  </form>
+</section>
