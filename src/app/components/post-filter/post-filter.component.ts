@@ -6,7 +6,6 @@ import { filterPosts } from 'src/app/store/post.actions';
 @Component({
   selector: 'app-post-filter',
   templateUrl: './post-filter.component.html',
-  styleUrls: ['./post-filter.component.scss'],
 })
 export class PostFilterComponent {
   filterValue: string = '';

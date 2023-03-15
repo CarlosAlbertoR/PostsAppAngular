@@ -9,7 +9,6 @@ import { addPost } from 'src/app/store/post.actions';
 @Component({
   selector: 'app-post-form',
   templateUrl: './post-form.component.html',
-  styleUrls: ['./post-form.component.scss'],
 })
 export class PostFormComponent {
   @Output() addPost: EventEmitter<IPost> = new EventEmitter();

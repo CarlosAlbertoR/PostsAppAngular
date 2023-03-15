@@ -9,7 +9,6 @@ import { selectAllPosts } from '../../store/post.selector';
 @Component({
   selector: 'app-post-list',
   templateUrl: './post-list.component.html',
-  styleUrls: ['./post-list.component.scss'],
 })
 export class PostListComponent {
   posts$: Observable<IPost[]> = this.store.select(selectAllPosts);

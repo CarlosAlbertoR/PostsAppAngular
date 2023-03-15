@@ -8,11 +8,11 @@ import { IPost } from '../models/post.model';
 })
 export class PostService {
   private posts: IPost[] = [
-    { id: 1, name: 'Post 1', description: 'Descripción del post 1' },
-    { id: 2, name: 'Post 2', description: 'Descripción del post 2' },
-    { id: 3, name: 'Post 3', description: 'Descripción del post 3' },
-    { id: 4, name: 'Post 4', description: 'Descripción del post 4' },
-    { id: 5, name: 'Post 5', description: 'Descripción del post 5' },
+    { id: 1, name: 'Post 1', description: 'Description of the post 1' },
+    { id: 2, name: 'Post 2', description: 'Description of the post 2' },
+    { id: 3, name: 'Post 3', description: 'Description of the post 3' },
+    { id: 4, name: 'Post 4', description: 'Description of the post 4' },
+    { id: 5, name: 'Post 5', description: 'Description of the post 5' },
   ];
 
   constructor() {}

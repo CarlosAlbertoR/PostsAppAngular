@@ -1,30 +1,27 @@
-# Aplicación de Posts
-Esta es una pequeña aplicación en Angular, con NgRx, que maneja Posts.
+# Application of Posts
+This is a small application in Angular, with NgRx, which handles Posts.
 
-## Funcionalidades
-- Insertar posts
-- Eliminar posts
-- Listar posts
-- Filtrar posts por nombre
+## Features
+- Insert posts
+- Delete posts
+- List posts
+- Filter posts by name
   
-## Estructura
-La aplicación cuenta con las siguientes secciones:
+## Structure
+The application has the following sections:
 
-- **Filtro**: para buscar un post por nombre
-- **Lista**: para mostrar los posts y poder eliminarlos
-- **Formulario**: para insertar un nuevo post
+- **Filter**: to search for a post by name
+- **List**: to show the posts and be able to delete them
+- **Form**: to insert a new post
   
 
-## Levantar el ambiente de desarrollo
-Para levantar el ambiente de desarrollo, se deben seguir los siguientes pasos:
+## Raise the development environment
+To raise the development environment, the following steps must be followed:
 
-1. Clonar el repositorio
-2. Ejecutar el comando `yarn` en la carpeta del proyecto
-3. Ejecutar el comando `npm run start` para levantar el servidor de desarrollo
-4. Abrir la aplicación en el navegador en la dirección http://localhost:4200
+1. Clone the repository with `git clone https://github.com/CarlosAlbertoR/PostsAppAngular`
+2. Run the `yarn` command in the project folder
+3. Run the `npm run start` command to start the development server
+4. Open the application in the browser at the address http://localhost:4200
    
-## Autor
-Este proyecto fue creado por Carlos Alberto Rios
-
-
-
+## Author
+This project was created by Carlos Alberto Rios
