@@ -30,6 +30,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: dist/post-app
-      - name: Fix permissions
-        run: |
-          chmod -R 755 ./_site
