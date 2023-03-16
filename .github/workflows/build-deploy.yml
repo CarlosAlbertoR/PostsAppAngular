@@ -30,7 +30,7 @@ jobs:
           npm run-script deploy
 
       - name: Fix permissions
-        run: chmod -R 755 ./_site
+        run: chmod -R 755 ./dist/post-app
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
