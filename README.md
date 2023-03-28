@@ -14,7 +14,7 @@ The application has the following sections:
 - **List**: to show the posts and be able to delete them
 - **Form**: to insert a new post
   
-  ## Demo
+## Demo
 You can try the app live at: https://carlosalbertor.github.io/PostsAppAngular/
 
 ## Raise the development environment
