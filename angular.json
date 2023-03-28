@@ -111,23 +111,10 @@
               "**/node_modules/**"
             ]
           }
-        },
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "post-app:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "post-app:serve:production"
-            }
-          }
         }
       }
     }
   },
-  "defaultProject": "post-app",
   "cli": {
     "analytics": "1a696b9a-4f9b-47da-9d4c-1ed4e5fd0c22"
   }
